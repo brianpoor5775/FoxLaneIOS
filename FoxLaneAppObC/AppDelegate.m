@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Parse initializeWithConfiguration:[ParseClientConfiguration configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+        configuration.applicationId = @"rxnQYcc4cGE16XzZEzkjLbobtqscs8xt7bqxj40g";
+        configuration.clientKey = @"83Gx5MS2NkfDeagqKsj0f6hTdVt1yzftQkIJyROF";
+        configuration.server = @"https://flhsappmigration.herokuapp.com/parse";
+    }]];
+
+    [PFUser enableAutomaticUser];
+    PFUser *user = [PFUser currentUser];
+    user.ACL = [PFACL ACLWithUser:user];
+    [PFACL setDefaultACL:[PFACL ACL] withAccessForCurrentUser:YES];
+    
+    
     return YES;
 }
 

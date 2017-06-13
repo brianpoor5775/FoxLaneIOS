@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3E135A81EE0CAA5002A243C /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E135A71EE0CAA5002A243C /* CalendarViewController.m */; };
+		D3E135AD1EE0E4BB002A243C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135AC1EE0E4BB002A243C /* Parse.framework */; };
+		D3E135B61EE0E5D3002A243C /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E135AF1EE0E5D3002A243C /* DayViewController.m */; };
+		D3E135B71EE0E5D3002A243C /* InputCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E135B11EE0E5D3002A243C /* InputCourseViewController.m */; };
+		D3E135B81EE0E5D3002A243C /* InputLunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E135B31EE0E5D3002A243C /* InputLunchViewController.m */; };
+		D3E135B91EE0E5D3002A243C /* LunchConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E135B51EE0E5D3002A243C /* LunchConnector.m */; };
+		D3E135BB1EE0E936002A243C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135BA1EE0E936002A243C /* Bolts.framework */; };
+		D3E135BD1EE0EA14002A243C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135BC1EE0EA14002A243C /* AudioToolbox.framework */; };
+		D3E135BF1EE0EA1D002A243C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135BE1EE0EA1D002A243C /* CFNetwork.framework */; };
+		D3E135C11EE0EA29002A243C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135C01EE0EA29002A243C /* CoreGraphics.framework */; };
+		D3E135C31EE0EA33002A243C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135C21EE0EA33002A243C /* CoreLocation.framework */; };
+		D3E135C71EE0EA82002A243C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135C61EE0EA82002A243C /* MobileCoreServices.framework */; };
+		D3E135C91EE0EAE6002A243C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135C81EE0EAE6002A243C /* QuartzCore.framework */; };
+		D3E135CB1EE0EAF0002A243C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135CA1EE0EAF0002A243C /* Security.framework */; };
+		D3E135CD1EE0EAF8002A243C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135CC1EE0EAF7002A243C /* StoreKit.framework */; };
+		D3E135CF1EE0EBAD002A243C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135CE1EE0EBAD002A243C /* SystemConfiguration.framework */; };
+		D3E135D11EE0EBC4002A243C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135D01EE0EBC4002A243C /* libsqlite3.tbd */; };
+		D3E135D31EE0EBCF002A243C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135D21EE0EBCF002A243C /* libz.tbd */; };
 		D3E8D4A81EE0BB6F00127C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E8D4A71EE0BB6F00127C0D /* main.m */; };
 		D3E8D4AB1EE0BB6F00127C0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E8D4AA1EE0BB6F00127C0D /* AppDelegate.m */; };
 		D3E8D4AE1EE0BB6F00127C0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E8D4AD1EE0BB6F00127C0D /* ViewController.m */; };
@@ -15,6 +33,8 @@
 		D3E8D4B61EE0BB7000127C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E8D4B41EE0BB7000127C0D /* LaunchScreen.storyboard */; };
 		D3E8D4C11EE0BB7000127C0D /* FoxLaneAppObCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E8D4C01EE0BB7000127C0D /* FoxLaneAppObCTests.m */; };
 		D3E8D4CC1EE0BB7000127C0D /* FoxLaneAppObCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E8D4CB1EE0BB7000127C0D /* FoxLaneAppObCUITests.m */; };
+		D3E8D4E51EE0C05600127C0D /* AnnouncementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E8D4E31EE0C05600127C0D /* AnnouncementViewController.m */; };
+		D3E8D4E81EE0C77B00127C0D /* LunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E8D4E71EE0C77B00127C0D /* LunchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3E135A61EE0CAA5002A243C /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		D3E135A71EE0CAA5002A243C /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		D3E135AC1EE0E4BB002A243C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = FoxLaneAppObC/Parse.framework; sourceTree = "<group>"; };
+		D3E135AE1EE0E5D3002A243C /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
+		D3E135AF1EE0E5D3002A243C /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
+		D3E135B01EE0E5D3002A243C /* InputCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCourseViewController.h; sourceTree = "<group>"; };
+		D3E135B11EE0E5D3002A243C /* InputCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCourseViewController.m; sourceTree = "<group>"; };
+		D3E135B21EE0E5D3002A243C /* InputLunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputLunchViewController.h; sourceTree = "<group>"; };
+		D3E135B31EE0E5D3002A243C /* InputLunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputLunchViewController.m; sourceTree = "<group>"; };
+		D3E135B41EE0E5D3002A243C /* LunchConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunchConnector.h; sourceTree = "<group>"; };
+		D3E135B51EE0E5D3002A243C /* LunchConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunchConnector.m; sourceTree = "<group>"; };
+		D3E135BA1EE0E936002A243C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = FoxLaneAppObC/Bolts.framework; sourceTree = "<group>"; };
+		D3E135BC1EE0EA14002A243C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D3E135BE1EE0EA1D002A243C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D3E135C01EE0EA29002A243C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3E135C21EE0EA33002A243C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D3E135C41EE0EA69002A243C /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		D3E135C61EE0EA82002A243C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D3E135C81EE0EAE6002A243C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D3E135CA1EE0EAF0002A243C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D3E135CC1EE0EAF7002A243C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D3E135CE1EE0EBAD002A243C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D3E135D01EE0EBC4002A243C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D3E135D21EE0EBCF002A243C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D3E8D4A31EE0BB6F00127C0D /* FoxLaneAppObC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxLaneAppObC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E8D4A71EE0BB6F00127C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3E8D4A91EE0BB6F00127C0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +95,10 @@
 		D3E8D4C71EE0BB7000127C0D /* FoxLaneAppObCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxLaneAppObCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E8D4CB1EE0BB7000127C0D /* FoxLaneAppObCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoxLaneAppObCUITests.m; sourceTree = "<group>"; };
 		D3E8D4CD1EE0BB7000127C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E8D4E31EE0C05600127C0D /* AnnouncementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementViewController.m; sourceTree = "<group>"; };
+		D3E8D4E41EE0C05600127C0D /* AnnouncementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementViewController.h; sourceTree = "<group>"; };
+		D3E8D4E61EE0C77B00127C0D /* LunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunchViewController.h; sourceTree = "<group>"; };
+		D3E8D4E71EE0C77B00127C0D /* LunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E135D31EE0EBCF002A243C /* libz.tbd in Frameworks */,
+				D3E135D11EE0EBC4002A243C /* libsqlite3.tbd in Frameworks */,
+				D3E135CF1EE0EBAD002A243C /* SystemConfiguration.framework in Frameworks */,
+				D3E135CD1EE0EAF8002A243C /* StoreKit.framework in Frameworks */,
+				D3E135CB1EE0EAF0002A243C /* Security.framework in Frameworks */,
+				D3E135C91EE0EAE6002A243C /* QuartzCore.framework in Frameworks */,
+				D3E135C71EE0EA82002A243C /* MobileCoreServices.framework in Frameworks */,
+				D3E135C31EE0EA33002A243C /* CoreLocation.framework in Frameworks */,
+				D3E135C11EE0EA29002A243C /* CoreGraphics.framework in Frameworks */,
+				D3E135BF1EE0EA1D002A243C /* CFNetwork.framework in Frameworks */,
+				D3E135BD1EE0EA14002A243C /* AudioToolbox.framework in Frameworks */,
+				D3E135BB1EE0E936002A243C /* Bolts.framework in Frameworks */,
+				D3E135AD1EE0E4BB002A243C /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +139,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3E135AB1EE0E4BB002A243C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E135D21EE0EBCF002A243C /* libz.tbd */,
+				D3E135D01EE0EBC4002A243C /* libsqlite3.tbd */,
+				D3E135CE1EE0EBAD002A243C /* SystemConfiguration.framework */,
+				D3E135CC1EE0EAF7002A243C /* StoreKit.framework */,
+				D3E135CA1EE0EAF0002A243C /* Security.framework */,
+				D3E135C81EE0EAE6002A243C /* QuartzCore.framework */,
+				D3E135C61EE0EA82002A243C /* MobileCoreServices.framework */,
+				D3E135C41EE0EA69002A243C /* libz.1.2.8.tbd */,
+				D3E135C21EE0EA33002A243C /* CoreLocation.framework */,
+				D3E135C01EE0EA29002A243C /* CoreGraphics.framework */,
+				D3E135BE1EE0EA1D002A243C /* CFNetwork.framework */,
+				D3E135BC1EE0EA14002A243C /* AudioToolbox.framework */,
+				D3E135BA1EE0E936002A243C /* Bolts.framework */,
+				D3E135AC1EE0E4BB002A243C /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3E8D49A1EE0BB6F00127C0D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,7 @@
 				D3E8D4BF1EE0BB7000127C0D /* FoxLaneAppObCTests */,
 				D3E8D4CA1EE0BB7000127C0D /* FoxLaneAppObCUITests */,
 				D3E8D4A41EE0BB6F00127C0D /* Products */,
+				D3E135AB1EE0E4BB002A243C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +184,20 @@
 		D3E8D4A51EE0BB6F00127C0D /* FoxLaneAppObC */ = {
 			isa = PBXGroup;
 			children = (
+				D3E135AE1EE0E5D3002A243C /* DayViewController.h */,
+				D3E135AF1EE0E5D3002A243C /* DayViewController.m */,
+				D3E135B01EE0E5D3002A243C /* InputCourseViewController.h */,
+				D3E135B11EE0E5D3002A243C /* InputCourseViewController.m */,
+				D3E135B21EE0E5D3002A243C /* InputLunchViewController.h */,
+				D3E135B31EE0E5D3002A243C /* InputLunchViewController.m */,
+				D3E135B41EE0E5D3002A243C /* LunchConnector.h */,
+				D3E135B51EE0E5D3002A243C /* LunchConnector.m */,
+				D3E135A61EE0CAA5002A243C /* CalendarViewController.h */,
+				D3E135A71EE0CAA5002A243C /* CalendarViewController.m */,
+				D3E8D4E61EE0C77B00127C0D /* LunchViewController.h */,
+				D3E8D4E71EE0C77B00127C0D /* LunchViewController.m */,
+				D3E8D4E31EE0C05600127C0D /* AnnouncementViewController.m */,
+				D3E8D4E41EE0C05600127C0D /* AnnouncementViewController.h */,
 				D3E8D4A91EE0BB6F00127C0D /* AppDelegate.h */,
 				D3E8D4AA1EE0BB6F00127C0D /* AppDelegate.m */,
 				D3E8D4AC1EE0BB6F00127C0D /* ViewController.h */,
@@ -277,8 +374,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3E8D4AE1EE0BB6F00127C0D /* ViewController.m in Sources */,
+				D3E8D4E51EE0C05600127C0D /* AnnouncementViewController.m in Sources */,
+				D3E135B91EE0E5D3002A243C /* LunchConnector.m in Sources */,
+				D3E135B61EE0E5D3002A243C /* DayViewController.m in Sources */,
 				D3E8D4AB1EE0BB6F00127C0D /* AppDelegate.m in Sources */,
+				D3E135B81EE0E5D3002A243C /* InputLunchViewController.m in Sources */,
 				D3E8D4A81EE0BB6F00127C0D /* main.m in Sources */,
+				D3E135A81EE0CAA5002A243C /* CalendarViewController.m in Sources */,
+				D3E135B71EE0E5D3002A243C /* InputCourseViewController.m in Sources */,
+				D3E8D4E81EE0C77B00127C0D /* LunchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +532,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 39N58DPU28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FoxLaneAppObC",
+				);
 				INFOPLIST_FILE = FoxLaneAppObC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Poor.FoxLaneAppObC";
@@ -440,6 +548,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 39N58DPU28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FoxLaneAppObC",
+				);
 				INFOPLIST_FILE = FoxLaneAppObC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Poor.FoxLaneAppObC";
@@ -516,6 +628,7 @@
 				D3E8D4D21EE0BB7000127C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3E8D4D31EE0BB7000127C0D /* Build configuration list for PBXNativeTarget "FoxLaneAppObCTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +637,7 @@
 				D3E8D4D51EE0BB7000127C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3E8D4D61EE0BB7000127C0D /* Build configuration list for PBXNativeTarget "FoxLaneAppObCUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +646,7 @@
 				D3E8D4D81EE0BB7000127C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
