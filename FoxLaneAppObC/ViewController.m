@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Parse/Parse.h>
 
 @interface ViewController ()
 
@@ -16,9 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+   // PFUser *user = [PFUser currentUser];
+    //user.ACL = [PFACL ACLWithUser:user];
+    //[PFACL setDefaultACL:[PFACL ACL] withAccessForCurrentUser:YES];
+    
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

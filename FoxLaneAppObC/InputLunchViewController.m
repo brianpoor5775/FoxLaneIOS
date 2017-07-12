@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setHomeButton];
     // Do any additional setup after loading the view, typically from a nib.
         tableData =@[@"Day A",@"Day B",@"Day C",@"Day D",@"Day E",@"Day 1",@"Day 2",@"Day 3",@"Day 4",@"Day 5"];
     lunchData = [[NSMutableArray alloc]init];
@@ -145,6 +146,21 @@
     [self pushParse];
     [self performSegueWithIdentifier:@"lunchDataSegue" sender:self];
 }
+
+//NavStuff
+-(void)setHomeButton{
+    self.navigationItem.hidesBackButton = YES;
+    NSLog(@"pleasepleaseplease");
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"Home"
+                                                             style:UIBarButtonItemStylePlain
+                                                            target:self
+                                                            action:@selector(showHome)];
+    [self.navigationItem setLeftBarButtonItem:item animated:YES];
+}
+-(void) showHome{
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 
 
 @end

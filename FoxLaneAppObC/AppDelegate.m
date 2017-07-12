@@ -24,12 +24,14 @@
         configuration.clientKey = @"83Gx5MS2NkfDeagqKsj0f6hTdVt1yzftQkIJyROF";
         configuration.server = @"https://flhsappmigration.herokuapp.com/parse";
     }]];
-
-    [PFUser enableAutomaticUser];
-    PFUser *user = [PFUser currentUser];
-    user.ACL = [PFACL ACLWithUser:user];
-    [PFACL setDefaultACL:[PFACL ACL] withAccessForCurrentUser:YES];
     
+    
+    //added
+    [PFUser enableAutomaticUser];
+    PFACL *defaultACL = [PFACL ACL];
+    // Optionally enable public read access while disabling public write access.
+    // [defaultACL setPublicReadAccess:YES];
+    [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
     
     return YES;
 }

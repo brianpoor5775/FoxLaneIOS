@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.automaticallyAdjustsScrollViewInsets = false;
+    //ChangeNavThing
+    
+    //self.automaticallyAdjustsScrollViewInsets = false;
     NSString *urlString = @"http://www.bcsdny.org/m/events.cfm";
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
@@ -29,6 +31,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

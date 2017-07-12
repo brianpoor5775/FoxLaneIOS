@@ -26,6 +26,8 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    [self setHomeButton];
+    
     
     dayValue = 0;
     dayArray = @[@"Day A",@"Day B",@"Day C",@"Day D",@"Day E",@"Day 1",@"Day 2",@"Day 3",@"Day 4",@"Day 5"];
@@ -274,6 +276,18 @@
                                                    handler:^(UIAlertAction * action) {tableData[indexPath.row] = self.courseData[i];[self.scheduleTableView reloadData];[self pushParse];}]];
             [courseAlert addAction:choices[i]];
         }
+//
+        UIAlertAction* cancel = [UIAlertAction
+                                 actionWithTitle:@"Cancel"
+                                 style:UIAlertActionStyleDefault
+                                 handler:^(UIAlertAction * action)
+                                 {
+                                     [courseAlert dismissViewControllerAnimated:YES completion:nil];
+                                     
+                                 }];
+        [courseAlert addAction:cancel];
+//
+        
         [self presentViewController:courseAlert animated:YES completion:nil];
     }
 
@@ -294,7 +308,19 @@
     
     
 }
-
+//NavStuff
+-(void)setHomeButton{
+    self.navigationItem.hidesBackButton = YES;
+    NSLog(@"pleasepleaseplease");
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"Home"
+                                                             style:UIBarButtonItemStylePlain
+                                                            target:self
+                                                            action:@selector(showHome)];
+    [self.navigationItem setLeftBarButtonItem:item animated:YES];
+}
+-(void) showHome{
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 
 /*
 #pragma mark - Navigation

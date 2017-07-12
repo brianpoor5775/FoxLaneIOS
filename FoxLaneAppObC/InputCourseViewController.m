@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setHomeButton];
     tableData = [[NSMutableArray alloc] init];
     [self parseSetCourse];
 }
@@ -127,6 +128,21 @@
 - (IBAction)doneButtonClick:(id)sender {
     [self pushParse];
     [self performSegueWithIdentifier:@"courseDataSegue" sender:self];
+}
+
+
+//NavStuff
+-(void)setHomeButton{
+    self.navigationItem.hidesBackButton = YES;
+    NSLog(@"pleasepleaseplease");
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"Home"
+                                                             style:UIBarButtonItemStylePlain
+                                                            target:self
+                                                            action:@selector(showHome)];
+    [self.navigationItem setLeftBarButtonItem:item animated:YES];
+}
+-(void) showHome{
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 /*

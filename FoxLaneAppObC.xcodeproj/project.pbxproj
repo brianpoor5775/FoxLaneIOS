@@ -21,7 +21,6 @@
 		D3E135C71EE0EA82002A243C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135C61EE0EA82002A243C /* MobileCoreServices.framework */; };
 		D3E135C91EE0EAE6002A243C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135C81EE0EAE6002A243C /* QuartzCore.framework */; };
 		D3E135CB1EE0EAF0002A243C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135CA1EE0EAF0002A243C /* Security.framework */; };
-		D3E135CD1EE0EAF8002A243C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135CC1EE0EAF7002A243C /* StoreKit.framework */; };
 		D3E135CF1EE0EBAD002A243C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135CE1EE0EBAD002A243C /* SystemConfiguration.framework */; };
 		D3E135D11EE0EBC4002A243C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135D01EE0EBC4002A243C /* libsqlite3.tbd */; };
 		D3E135D31EE0EBCF002A243C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E135D21EE0EBCF002A243C /* libz.tbd */; };
@@ -109,7 +108,6 @@
 				D3E135D31EE0EBCF002A243C /* libz.tbd in Frameworks */,
 				D3E135D11EE0EBC4002A243C /* libsqlite3.tbd in Frameworks */,
 				D3E135CF1EE0EBAD002A243C /* SystemConfiguration.framework in Frameworks */,
-				D3E135CD1EE0EAF8002A243C /* StoreKit.framework in Frameworks */,
 				D3E135CB1EE0EAF0002A243C /* Security.framework in Frameworks */,
 				D3E135C91EE0EAE6002A243C /* QuartzCore.framework in Frameworks */,
 				D3E135C71EE0EA82002A243C /* MobileCoreServices.framework in Frameworks */,
@@ -537,9 +535,11 @@
 					"$(PROJECT_DIR)/FoxLaneAppObC",
 				);
 				INFOPLIST_FILE = FoxLaneAppObC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Poor.FoxLaneAppObC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -553,9 +553,11 @@
 					"$(PROJECT_DIR)/FoxLaneAppObC",
 				);
 				INFOPLIST_FILE = FoxLaneAppObC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Poor.FoxLaneAppObC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
